@@ -1,0 +1,16 @@
+{
+    "name": "dlimars/credit-card-returns",
+    "description": "Mensagens de retornos de adquirentes de cartão de crédito",
+    "authors": [
+        {
+            "name": "Daniel Lima",
+            "email": "daniel@docode.com.br"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Dlimars\\CreditCardReturns\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
