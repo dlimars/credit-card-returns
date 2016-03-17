@@ -7,7 +7,7 @@ aceitas no momento:
 ```
 
 ### Instalação
-apenas execute `composer require dlimars\credit-card-returns` na pasta do seu projeto
+apenas execute `composer require dlimars/credit-card-returns` na pasta do seu projeto
 
 
 ### Como usar
