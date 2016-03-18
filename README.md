@@ -1,4 +1,11 @@
 # Retornos de Cartão de Crédito
+
+[![Build Status](https://travis-ci.org/dlimars/credit-card-returns.svg?branch=master)](https://travis-ci.org/dlimars/credit-card-returns)
+[![Latest Stable Version](https://poser.pugx.org/dlimars/credit-card-returns/v/stable)](https://packagist.org/packages/dlimars/credit-card-returns)
+[![Total Downloads](https://poser.pugx.org/dlimars/credit-card-returns/downloads)](https://packagist.org/packages/dlimars/credit-card-returns)
+[![Latest Unstable Version](https://poser.pugx.org/dlimars/credit-card-returns/v/unstable)](https://packagist.org/packages/dlimars/credit-card-returns)
+[![License](https://poser.pugx.org/dlimars/credit-card-returns/license)](https://packagist.org/packages/dlimars/credit-card-returns)
+
 Códigos de retornos com mensagens das principais adquirentes de cartão de crédito
 
 aceitas no momento:
