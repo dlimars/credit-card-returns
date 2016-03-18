@@ -12,5 +12,10 @@
             "Dlimars\\CreditCardReturns\\": "src/"
         }
     },
+    "autoload-dev": {
+        "classmap": [
+            "tests/Stubs"
+        ]
+    },
     "minimum-stability": "dev"
 }
