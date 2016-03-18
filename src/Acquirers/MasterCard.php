@@ -6,12 +6,8 @@ class MasterCard extends BaseAcquirer
 {
     protected $name = 'MASTERCARD';
 
-    public function __construct()
+    public function __construct($messagesFile = __DIR__ . "/../Messages/en-US/mastercard.php")
     {
-        if (! $file = realpath(__DIR__ . "/../Messages/" . \Locale::getDefault() . "/mastercard.php")) {
-            throw new \Exception("Your language is not available at the moment, please select another one.", 1);
-        } else {
-            parent::__construct(include $file);
-        }
+        parent::__construct(include $messagesFile);
     }
 }
