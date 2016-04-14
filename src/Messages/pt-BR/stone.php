@@ -4,8 +4,7 @@ use \Dlimars\CreditCardReturns\Message;
 
 return [
     new Message("0001", "Transação autorizada"),
-    new Message("1000", "Transação autoriada", "Verifique a identidade antes de autorizar"),
-    new Message("1000", "Transação não autorizada"),
+    new Message("1000", "Transação não autorizada", "Verifique a identidade antes de autorizar"),
     new Message("1001", "Cartão vencido"),
     new Message("1002", "Transação não permitida"),
     new Message("1003", "Rejeitado emissor", "Entre em contato com o banco emissor do cartão"),
