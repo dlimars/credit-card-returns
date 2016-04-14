@@ -11,8 +11,8 @@ class Cielo extends BaseAcquirer
     /**
      * @param string $messagesFile
      */
-    public function __construct($messagesFile = __DIR__ . "/../Messages/pt-BR/cielo.php")
+    public function __construct($messagesFile = null)
     {
-        parent::__construct(include $messagesFile);
+        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/cielo.php");
     }
 }

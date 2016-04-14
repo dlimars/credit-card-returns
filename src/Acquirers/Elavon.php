@@ -6,8 +6,11 @@ class Elavon extends BaseAcquirer
 {
     protected $name = 'ELAVON';
 
-    public function __construct($messagesFile = __DIR__ . "/../Messages/pt-BR/elavon.php")
+    /**
+     * @param string $messagesFile
+     */
+    public function __construct($messagesFile = null)
     {
-        parent::__construct(include $messagesFile);
+        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/elavon.php");
     }
 }

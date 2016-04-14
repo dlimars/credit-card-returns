@@ -6,8 +6,11 @@ class RedeCard extends BaseAcquirer
 {
     protected $name = 'REDE';
 
-    public function __construct($messagesFile = __DIR__ . "/../Messages/pt-BR/rede.php")
+    /**
+     * @param string $messagesFile
+     */
+    public function __construct($messagesFile = null)
     {
-        parent::__construct(include $messagesFile);
+        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/elavon.php");
     }
 }

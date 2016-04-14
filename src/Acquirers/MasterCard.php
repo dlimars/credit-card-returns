@@ -6,8 +6,11 @@ class MasterCard extends BaseAcquirer
 {
     protected $name = 'MASTERCARD';
 
-    public function __construct($messagesFile = __DIR__ . "/../Messages/en-US/mastercard.php")
+    /**
+     * @param string $messagesFile
+     */
+    public function __construct($messagesFile = null)
     {
-        parent::__construct(include $messagesFile);
+        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/elavon.php");
     }
 }
