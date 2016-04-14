@@ -11,6 +11,6 @@ class RedeCard extends BaseAcquirer
      */
     public function __construct($messagesFile = null)
     {
-        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/elavon.php");
+        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/rede.php");
     }
 }

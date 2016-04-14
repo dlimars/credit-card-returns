@@ -11,6 +11,6 @@ class Stone extends BaseAcquirer
      */
     public function __construct($messagesFile = null)
     {
-        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/cielo.php");
+        parent::__construct(include $messagesFile ?: __DIR__ . "/../Messages/pt-BR/stone.php");
     }
 }
