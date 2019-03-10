@@ -10,7 +10,7 @@ Códigos de retornos com mensagens das principais adquirentes de cartão de cré
 
 aceitas no momento:
 ```php
-    REDE    CIELO   ELAVON   STONE
+    REDE    CIELO   ELAVON   STONE   MASTERCARD   MERCADO_PAGO
 ```
 
 ### Instalação
