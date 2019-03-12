@@ -28,7 +28,7 @@ class BaseAcquirerTest extends PHPUnit_Framework_TestCase
             new Message("2", "Foo2", "Bar2", false)
         ];
         $base       = new BaseAcquirerStub($messages);
-        $message    = $base->getMessageByCode("FOO-2")->getMessage();
+        $message    = $base->getMessageByCode("2")->getMessage();
         $this->assertEquals("Foo2", $message);
     }
 }
