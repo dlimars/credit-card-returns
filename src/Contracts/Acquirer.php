@@ -40,7 +40,8 @@ interface Acquirer
 
     /**
      * @param $code
+     * @param bool $compareCodeInteger
      * @return mixed
      */
-    public function getMessageByCode($code);
+    public function getMessageByCode($code, $compareCodeInteger = true);
 }

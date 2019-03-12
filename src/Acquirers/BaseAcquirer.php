@@ -84,12 +84,13 @@ abstract class BaseAcquirer implements Acquirer
 
     /**
      * @param $code
+     * @param bool $compareCodeInteger
      * @return ReturnMessage|null
      */
-    public function getMessageByCode($code)
+    public function getMessageByCode($code, $compareCodeInteger = true)
     {
         foreach ($this->messages as $message) {
-            if (($message->getCode() == $code) || ((int)$code == (int)$message->getCode())) {
+            if (($message->getCode() == $code) || ($compareCodeInteger && (int)$code == (int)$message->getCode())) {
                 return $message;
             }
         }
