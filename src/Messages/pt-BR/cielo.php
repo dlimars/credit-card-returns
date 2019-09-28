@@ -7,6 +7,7 @@ return [
     new Message("1", "Transação referida pelo emissor", "Contate o emissor do cartão", false),
     new Message("4", "Cartão com restrição", "Contate o emissor do cartão", false),
     new Message("5", "Transação não autorizada", "Contate o emissor do cartão", false),
+    new Message("8", "Código de Verificação inválido", false),
     new Message("6", "Tente novamente", "", true),
     new Message("7", "Cartão com restrição", "", false),
     new Message("12", "Transação inválida", "", false),
